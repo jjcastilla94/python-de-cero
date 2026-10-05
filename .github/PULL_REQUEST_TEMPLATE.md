@@ -21,7 +21,7 @@ python -m compileall ejercicios main.py
 ```
 
 - [ ] He pegado aquí la salida: ambas órdenes terminan sin errores
-- [ ] He probado en Python 3.10 y en la última versión (3.14)
+- [ ] He probado en Python 3.14
 
 ## Lista de comprobación
 

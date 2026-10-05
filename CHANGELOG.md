@@ -40,9 +40,9 @@ versionado es [SemVer](https://semver.org/lang/es/): `MAJOR.MINOR.PATCH`.
 - **Documentación de comunidad**: `README.md`, `CONTRIBUTING.md`,
   `CODE_OF_CONDUCT.md`, `SECURITY.md`, `LICENSE` (MIT) y `CHANGELOG.md`.
 - **Integración continua** con GitHub Actions: comprueba la sintaxis de todos los
-  archivos y verifica las soluciones en Python 3.10 a 3.14.
-- La versión mínima documentada es **Python 3.10**: `main.py` usa la sentencia
-  `match`, que se introdujo en esa versión.
+  archivos y verifica las soluciones en Python 3.14.
+- La versión mínima documentada es **Python 3.14**: es la versión con la que se
+  ha probado todo el material. `main.py` usa además la sentencia `match`.
 
 ### Notas
 - El proyecto no tiene dependencias externas: solo librería estándar.

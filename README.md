@@ -1,6 +1,6 @@
 # python-de-cero
 
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-green.svg)](LICENSE)
 [![CI](https://github.com/jjcastilla94/python-de-cero/actions/workflows/ci.yml/badge.svg)](https://github.com/jjcastilla94/python-de-cero/actions/workflows/ci.yml)
 [![Código de conducta](https://img.shields.io/badge/c%C3%B3digo%20de%20conducta-Contributor%20Covenant-violet.svg)](CODE_OF_CONDUCT.md)
@@ -82,8 +82,8 @@ python ejercicios/verificar_soluciones.py
 python ejercicios/11_reto_biblioteca.py
 ```
 
-Requisitos: **Python 3.10 o superior**. El mínimo lo marca `main.py`, que usa la
-sentencia `match` (nueva en 3.10); el resto del material funciona desde 3.8.
+Requisitos: **Python 3.14 o superior**. Todo el material está probado en esa
+versión, que es la mínima documentada (y la recomendada para este proyecto).
 Nada de `pip install`.
 
 ---
@@ -143,7 +143,7 @@ Lee [`CONTRIBUTING.md`](CONTRIBUTING.md) antes de abrir tu primer PR.
 - [x] Chuleta de referencia (25 secciones)
 - [x] 11 bloques de ejercicios con soluciones
 - [x] Reto final tipo proyecto
-- [x] CI que verifica las soluciones en Python 3.10 → 3.14
+- [x] CI que verifica las soluciones en Python 3.14
 - [ ] Ejercicios de nivel intermedio (algoritmos, diccionarios anidados)
 - [ ] Sección de NumPy, Pandas y `scikit-learn`
 - [ ] Traducción de la chuleta al inglés
@@ -172,5 +172,5 @@ personas lo encuentren.
 ---
 
 <p align="center">
-  Hecho con <code>chuletas</code>, ejercicios y <code>print()</code> · Python 3.10+
+  Hecho con <code>chuletas</code>, ejercicios y <code>print()</code> · Python 3.14
 </p>

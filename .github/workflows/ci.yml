@@ -17,8 +17,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # 3.10 es la version minima: main.py usa la sentencia "match"
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        # 3.14 es la version minima documentada en el README
+        python-version: ["3.14"]
 
     steps:
       - name: Descargar el codigo
@@ -36,7 +36,6 @@ jobs:
         run: python ejercicios/verificar_soluciones.py
 
       - name: Avisar si los ejercicios dejan archivos sin ignorar
-        if: matrix.python-version == '3.13'
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "::warning::Los ejercicios dejan archivos sin ignorar:"
