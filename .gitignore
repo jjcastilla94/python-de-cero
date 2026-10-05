@@ -1,0 +1,86 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Bases de datos y credenciales
+*.db
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Archivos que generan los ejercicios al ejecutarse
+# ============================================================
+datos_ejercicios.txt
+datos_copia.txt
+datos.txt
+datos.csv
+datos.json
+biblioteca.json
+biblioteca_prueba.json
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Documentación generada
+docs/_build/
+_build/
+site/

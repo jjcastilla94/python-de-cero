@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Pregunta o duda sobre el contenido
+    url: https://github.com/TU-USUARIO/python-de-cero/discussions
+    about: Úsala si no sabes cómo resolver un ejercicio y prefieres que te orienten.
+  - name: Reportar un problema de seguridad
+    url: https://github.com/TU-USUARIO/python-de-cero/security/advisories/new
+    about: No abras una issue pública para vulnerabilidades: usa el reporte privado.
+  - name: Código de conducta
+    url: https://github.com/TU-USUARIO/python-de-cero/blob/main/CODE_OF_CONDUCT.md
+    about: Cómo se espera que nos comportemos en issues, PRs y discusiones.
